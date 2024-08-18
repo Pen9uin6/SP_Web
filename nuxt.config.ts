@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
+  app: {
+    baseURL: process.env.NODE_ENV === "production" ? "/SP_Web/" : "/",
+    buildAssetsDir: "/static/",
+  },
   shadcn: {
     /**
      * Prefix for all the imported component
