@@ -38,6 +38,6 @@ bun run dev
 
 ## Website URL
 
-[Build the application for production:](https://pen9uin6.github.io/SP_Web/)
+[SP_Web](https://pen9uin6.github.io/SP_Web/)
 
 
