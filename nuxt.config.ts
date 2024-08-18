@@ -20,5 +20,10 @@ export default defineNuxtConfig({
   supabase: {
     redirect: false,
   },
-  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "@nuxtjs/supabase"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "shadcn-nuxt",
+    "@nuxtjs/supabase",
+    "@nuxt/image",
+  ],
 });
