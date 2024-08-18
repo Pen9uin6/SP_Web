@@ -1,6 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# SouthPole Maimai Web
 
 ## Setup
 
@@ -38,38 +36,8 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Website URL
 
-Build the application for production:
+[Build the application for production:](https://pen9uin6.github.io/SP_Web/)
 
-```bash
-# npm
-npm run build
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
