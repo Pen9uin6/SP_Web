@@ -29,9 +29,7 @@
                 <p class="text-muted-foreground mb-4">{{ mem.place }}</p>
                 <div class="flex items-center justify-between">
                   <div class="text-2xl font-bold">{{ mem.words }}</div>
-                  <NuxtLink :to="'/info_' + mem.id">
-                    <Button>info</Button>
-                  </NuxtLink>
+                  <NuxtLink to="/"> <Button>info</Button> </NuxtLink>
                 </div>
               </CardContent>
             </Card>
