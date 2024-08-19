@@ -21,7 +21,7 @@
           <div v-for="mem in members">
             <Card>
               <NuxtImg
-                src="/head"
+                src="/pink_fc.png"
                 class="rounded-t-lg object-cover w-full h-48"
               />
               <CardContent class="p-4">
