@@ -25,5 +25,6 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
     "@nuxtjs/supabase",
     "@nuxt/image",
+    "@nuxt/icon"
   ],
 });
