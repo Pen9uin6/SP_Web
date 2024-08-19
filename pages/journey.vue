@@ -12,5 +12,5 @@
       <NuxtLink class="hover:underline" to="/other">Other</NuxtLink>
     </nav>
   </header>
-  <Button @click="navigateTo('/')">首頁</Button>
+  <NuxtLink to="/"> <Button>首頁</Button> </NuxtLink>
 </template>
