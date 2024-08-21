@@ -6,11 +6,11 @@
       <span class="text-xl font-bold">About</span>
     </div>
     <nav class="hidden md:flex items-center gap-6">
+      <NuxtLink class="hover:underline" to="/">Home</NuxtLink>
       <NuxtLink class="hover:underline" to="/about">About</NuxtLink>
       <NuxtLink class="hover:underline" to="/member">Member</NuxtLink>
       <NuxtLink class="hover:underline" to="/journey">Journey</NuxtLink>
       <NuxtLink class="hover:underline" to="/other">Other</NuxtLink>
     </nav>
   </header>
-  <NuxtLink to="/"> <Button>首頁</Button> </NuxtLink>
 </template>

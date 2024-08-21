@@ -7,6 +7,7 @@
         <span class="text-xl font-bold">SouthPole</span>
       </div>
       <nav class="hidden md:flex items-center gap-6">
+        <NuxtLink class="hover:underline" to="/">Home</NuxtLink>
         <NuxtLink class="hover:underline" to="/about">About</NuxtLink>
         <NuxtLink class="hover:underline" to="/member">Member</NuxtLink>
         <NuxtLink class="hover:underline" to="/journey">Journey</NuxtLink>

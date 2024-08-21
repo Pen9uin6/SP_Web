@@ -6,6 +6,7 @@
       <span class="text-xl font-bold">Member</span>
     </div>
     <nav class="hidden md:flex items-center gap-6">
+      <NuxtLink class="hover:underline" to="/">Home</NuxtLink>
       <NuxtLink class="hover:underline" to="/about">About</NuxtLink>
       <NuxtLink class="hover:underline" to="/member">Member</NuxtLink>
       <NuxtLink class="hover:underline" to="/journey">Journey</NuxtLink>
@@ -21,15 +22,14 @@
           <div v-for="mem in members">
             <Card>
               <NuxtImg
-                src="/pink_fc.png"
+                src="/998.png"
                 class="rounded-t-lg object-cover w-full h-48"
               />
               <CardContent class="p-4">
                 <h3 class="text-xl font-bold mb-2">{{ mem.name }}</h3>
-                <p class="text-muted-foreground mb-4">{{ mem.place }}</p>
                 <div class="flex items-center justify-between">
                   <div class="text-2xl font-bold">{{ mem.words }}</div>
-                  <NuxtLink to="/"> <Button>info</Button> </NuxtLink>
+                  <Button @click="navigateTo('/member/' + mem.id)">info</Button>
                 </div>
               </CardContent>
             </Card>
@@ -38,8 +38,6 @@
       </section>
     </main>
   </div>
-  <NuxtLink to="/"> <Button>首頁</Button> </NuxtLink>
-  {{ members }}
 </template>
 
 <script lang="ts" setup>
