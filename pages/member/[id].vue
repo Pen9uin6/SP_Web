@@ -2,7 +2,7 @@
   <header
     class="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between"
   >
-    <div class="flex items-center gap-2">
+    <div v-if="selectedMember" class="flex items-center gap-2">
       <span class="text-xl font-bold">{{ selectedMember[0].name }}</span>
     </div>
     <nav class="hidden md:flex items-center gap-6">
@@ -13,7 +13,7 @@
       <NuxtLink class="hover:underline" to="/other">Other</NuxtLink>
     </nav>
   </header>
-  <div class="bg-card min-h-screen p-10">
+  <div v-if="selectedMember" class="bg-card min-h-screen p-10">
     <div class="max-w-4xl mx-auto space-y-6 bg-card p-6 rounded-lg border">
       <div class="flex flex-col md:flex-row gap-5">
         <NuxtImg
