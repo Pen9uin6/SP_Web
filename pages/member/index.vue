@@ -53,4 +53,8 @@ const {
   const { data, error } = await supabase.from("Member").select(`*`);
   return data;
 });
+
+onMounted(async () => {
+  await user_refresh();
+});
 </script>

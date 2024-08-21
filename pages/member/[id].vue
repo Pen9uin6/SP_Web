@@ -137,4 +137,8 @@ const {
     .eq("id", route.params.id);
   return data;
 });
+
+onMounted(async () => {
+  await user_refresh();
+});
 </script>
