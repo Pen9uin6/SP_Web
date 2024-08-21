@@ -12,47 +12,47 @@ export type Database = {
       Member: {
         Row: {
           card: string | null
-          cardname: string | null
+          cardname: string
           fb: string | null
-          habit: string | null
+          habit: string
           head: string | null
           id: number
           name: string | null
-          nickname: string | null
+          nickname: string
           place: string | null
           plate: Json[] | null
           rating: number | null
-          time: string | null
+          time: string
           words: string | null
         }
         Insert: {
           card?: string | null
-          cardname?: string | null
+          cardname?: string
           fb?: string | null
-          habit?: string | null
+          habit?: string
           head?: string | null
           id?: number
           name?: string | null
-          nickname?: string | null
+          nickname?: string
           place?: string | null
           plate?: Json[] | null
           rating?: number | null
-          time?: string | null
+          time?: string
           words?: string | null
         }
         Update: {
           card?: string | null
-          cardname?: string | null
+          cardname?: string
           fb?: string | null
-          habit?: string | null
+          habit?: string
           head?: string | null
           id?: number
           name?: string | null
-          nickname?: string | null
+          nickname?: string
           place?: string | null
           plate?: Json[] | null
           rating?: number | null
-          time?: string | null
+          time?: string
           words?: string | null
         }
         Relationships: []

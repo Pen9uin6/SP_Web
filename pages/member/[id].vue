@@ -68,7 +68,7 @@
               </p>
             </div>
             <div class="flex flex-col flex-1">
-              <div v-if="selectedMember[0].plate != null">
+              <div v-if="selectedMember[0].plate[0] != 0">
                 <div
                   class="mb-2 mx-auto"
                   v-for="nameplate in selectedMember[0].plate"
