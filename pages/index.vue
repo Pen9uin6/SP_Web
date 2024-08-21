@@ -19,7 +19,7 @@
         class="bg-primary text-primary-foreground py-32 px-8 md:px-16 flex flex-col md:flex-row items-center justify-between gap-8"
       >
         <div class="max-w-md space-y-4">
-          <h1 class="text-4xl font-bold">Welcome to SouthPole123</h1>
+          <h1 class="text-4xl font-bold">Welcome to SouthPole</h1>
           <p class="text-lg">Explore the world of maimai with our club.</p>
           <NuxtLink class="hover:underline" to="/join">Join us</NuxtLink>
         </div>
