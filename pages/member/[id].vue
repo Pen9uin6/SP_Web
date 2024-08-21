@@ -123,9 +123,14 @@
 </template>
 
 <script lang="ts" setup>
+import { defineComponent } from "vue";
 const supabase = useSupabaseClient();
 const route = useRoute();
-const { data: selectedMember, error } = useAsyncData("Member", async () => {
+const {
+  data: selectedMember,
+  error: user_error,
+  refresh: user_refresh,
+} = useAsyncData("Member", async () => {
   const { data, error } = await supabase
     .from("Member")
     .select(`*`)

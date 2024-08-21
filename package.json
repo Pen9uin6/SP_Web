@@ -26,6 +26,9 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@iconify-json/ion": "^1.1.19",
+    "@iconify-json/line-md": "^1.1.39",
+    "@iconify-json/octicon": "^1.1.57",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "gh-pages": "^6.1.1",
     "typescript": "^5.5.4",

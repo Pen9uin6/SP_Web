@@ -45,7 +45,11 @@ import { ref } from "vue";
 const supabase = useSupabaseClient();
 import type { Database, Tables, Enums, Json } from "~/database.types";
 
-const { data: members, error } = useAsyncData("Member", async () => {
+const {
+  data: members,
+  error: user_error,
+  refresh: user_refresh,
+} = useAsyncData("Member", async () => {
   const { data, error } = await supabase.from("Member").select(`*`);
   return data;
 });

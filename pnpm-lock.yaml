@@ -45,6 +45,15 @@ importers:
         specifier: latest
         version: 3.4.38(typescript@5.5.4)
     devDependencies:
+      '@iconify-json/ion':
+        specifier: ^1.1.19
+        version: 1.1.19
+      '@iconify-json/line-md':
+        specifier: ^1.1.39
+        version: 1.1.39
+      '@iconify-json/octicon':
+        specifier: ^1.1.57
+        version: 1.1.57
       '@nuxtjs/tailwindcss':
         specifier: ^6.12.1
         version: 6.12.1(magicast@0.3.4)(rollup@4.21.0)
@@ -681,6 +690,15 @@ packages:
 
   '@floating-ui/vue@1.1.4':
     resolution: {integrity: sha512-ammH7T3vyCx7pmm9OF19Wc42zrGnUw0QvLoidgypWsCLJMtGXEwY7paYIHO+K+oLC3mbWpzIHzeTVienYenlNg==}
+
+  '@iconify-json/ion@1.1.19':
+    resolution: {integrity: sha512-ijYnInYvTsyw/H9WrVlyptiryogi95BhLSKLk/lX8lshctoK7Gaw21Rlatn7qk4RJPNLQNIy/vT1N9trA5Creg==}
+
+  '@iconify-json/line-md@1.1.39':
+    resolution: {integrity: sha512-K7NbjYJKDIGwJdn4Cv+rPAoymZDYwHUvYZoTJPB1rbwvq/KuXNPHyh3HL9zShhuCbKjAhTfU+z3qfDCUJwSwQA==}
+
+  '@iconify-json/octicon@1.1.57':
+    resolution: {integrity: sha512-ruzC4/zCOHoYP7nY9aGg7Pc8K9l+w1m03kHfhJgJwqHwqcLJWK8Bm+ZoINLupvQbB6GX5q11LATSX+0U/aOUpA==}
 
   '@iconify/collections@1.0.450':
     resolution: {integrity: sha512-h8cW4Ut1tAUCxr7wZBp8dwgive6IeY1OCYBraR23ismei7vFgx9FB9oNJvahhOYtIClqX0+BreJwOB05aYxejw==}
@@ -4434,6 +4452,18 @@ snapshots:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
+
+  '@iconify-json/ion@1.1.19':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/line-md@1.1.39':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/octicon@1.1.57':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify/collections@1.0.450':
     dependencies:
