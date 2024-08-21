@@ -2,7 +2,10 @@
   <header
     class="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between"
   >
-    <div v-if="selectedMember" class="flex items-center gap-2">
+    <div
+      v-if="selectedMember && selectedMember.length > 0"
+      class="flex items-center gap-2"
+    >
       <span class="text-xl font-bold">{{ selectedMember[0].name }}</span>
     </div>
     <nav class="hidden md:flex items-center gap-6">
